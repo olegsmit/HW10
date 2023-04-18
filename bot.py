@@ -16,7 +16,7 @@ class Phone(Field):
 
 
 class Record:
-    def __init__(self, name: Name, phones: list):
+    def __init__(self, name: Name, phones: list[Phone]):
         self.name = name
         self.phone = phones
 
