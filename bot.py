@@ -16,9 +16,9 @@ class Phone(Field):
 
 
 class Record:
-    def __init__(self, name: Name, phone: list):
+    def __init__(self, name: Name, phones: list):
         self.name = name
-        self.phone = phone
+        self.phone = phones
 
     def add_phone(self, phone: Phone):
         self.phone.append(phone)
